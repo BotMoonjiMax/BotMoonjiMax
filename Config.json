@@ -1,0 +1,20 @@
+{
+"bot": {
+"nome": "Moonji Bot Modz Max",
+"prefixo": "!",
+"versao": "1.0.0"
+},
+"whatsapp": {
+"token": "SEU_TOKEN_AQUI",
+"numero": "558396265883"
+},
+"database": {
+"tipo": "json",
+"arquivo": "database.json"
+}
+}
+
+Substitua:
+
+- `SEU_TOKEN_AQUI` pelo token do seu bot.
+- `SEU_NUMERO_AQUI` pelo número de telefone do seu bot.
