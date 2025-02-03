@@ -1,8 +1,12 @@
-22pkg update && pkg upgrade -y
-pkg install nodejs ffmpeg wget git -y
-termux-setup-storage
-https://github.com/BotMoonjiMax/BotMoonjiMax.git
-cd BotMoonjiMax 
-sh install.sh
+bash
+pkg update && pkg upgrade
+bash
+pkg install nodejs git
+bash
+git clone https://github.com/BotMoonjiMax/BotMoonjiMax.git
+bash npm install
+bash
 node index.js
+
+
 
