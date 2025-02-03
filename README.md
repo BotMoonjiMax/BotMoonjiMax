@@ -1,4 +1,4 @@
-2pkg update && pkg upgrade -y
+22pkg update && pkg upgrade -y
 pkg install nodejs ffmpeg wget git -y
 termux-setup-storage
 https://github.com/BotMoonjiMax/BotMoonjiMax.git
