@@ -1,0 +1,36 @@
+const request = require("request")
+
+async function requests(opts) {
+  return new Promise(
+    (resolve, reject) => {
+      opts.rejectUnauthorized = false;
+      request(opts, (err, res, body) => {
+        resolve(
+          { res, body }
+        )
+      })
+    }
+  )
+}
+
+module.exports = { requests }cardxp": [
+    {
+      "velocidade": "2x",
+      "dados": [
+        {"id": 1, "valor": 5, "tempo": 24},
+        {"id": 2, "valor": 7.5, "tempo": 48},
+        {"id": 3, "valor": 10, "tempo": 72},
+        {"id": 4, "valor": 20, "tempo": 168}
+      ]
+    },
+    {
+      "velocidade": "3x",
+      "dados": [
+        {"id": 1, "valor": 9, "tempo": 24},
+        {"id": 2, "valor": 13.5, "tempo": 48},
+        {"id": 3, "valor": 18, "tempo": 72},
+        {"id": 4, "valor": 32, "tempo": 168}
+      ]
+    }
+  ]
+}
